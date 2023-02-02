@@ -21,17 +21,28 @@
 		3C048DBC297DB11900F72819 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C048DBB297DB11900F72819 /* Host.swift */; };
 		3C488617297DBBEB00353028 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488616297DBBEB00353028 /* APIError.swift */; };
 		3C48861A297DFAE600353028 /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488619297DFAE600353028 /* Data+Decode.swift */; };
-		3C48861F297E013200353028 /* WhosWatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C48861E297E013200353028 /* WhosWatchingView.swift */; };
-		3C488621297E03A200353028 /* WhosWatchingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488620297E03A200353028 /* WhosWatchingInteractor.swift */; };
-		3C488623297E03F000353028 /* WhosWatchingPresentingLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488622297E03F000353028 /* WhosWatchingPresentingLogic.swift */; };
-		3C488625297E048100353028 /* WhosWatchingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488624297E048100353028 /* WhosWatchingConfigurator.swift */; };
-		3C488628297E05EC00353028 /* WhosWatchingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488627297E05EC00353028 /* WhosWatchingDataStore.swift */; };
 		3C48862A297E066200353028 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488629297E066200353028 /* User.swift */; };
-		3C48862C297E08E000353028 /* WhosWatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C48862B297E08E000353028 /* WhosWatchingModel.swift */; };
-		3C48862E297E096E00353028 /* WhosWatchingNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C48862D297E096E00353028 /* WhosWatchingNetworkWorker.swift */; };
-		3C488631297E0A4000353028 /* UsersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488630297E0A4000353028 /* UsersProvider.swift */; };
 		3C9287A72980A6E7005801AA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3C9287A62980A6E7005801AA /* Realm */; };
 		3C9287A92980A6E7005801AA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C9287A82980A6E7005801AA /* RealmSwift */; };
+		3C9287AB2980C043005801AA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287AA2980C043005801AA /* Fonts.swift */; };
+		3C9287B22980C3E4005801AA /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B12980C3E4005801AA /* PrimaryButtonStyle.swift */; };
+		3C9287B42980C87E005801AA /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B32980C87E005801AA /* TextFieldModifier.swift */; };
+		3C9287BD29835BA1005801AA /* CreateUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B629835BA1005801AA /* CreateUserPresenter.swift */; };
+		3C9287BE29835BA1005801AA /* CreateUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B729835BA1005801AA /* CreateUserRouter.swift */; };
+		3C9287BF29835BA1005801AA /* CreateUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B829835BA1005801AA /* CreateUserInteractor.swift */; };
+		3C9287C029835BA1005801AA /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B929835BA1005801AA /* CreateUserView.swift */; };
+		3C9287C129835BA1005801AA /* CreateUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287BA29835BA1005801AA /* CreateUserModel.swift */; };
+		3C9287C229835BA1005801AA /* CreateUserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287BB29835BA1005801AA /* CreateUserConfigurator.swift */; };
+		3C9287C329835BA1005801AA /* CreateUserNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287BC29835BA1005801AA /* CreateUserNetworkWorker.swift */; };
+		3C9287C5298361F1005801AA /* CreateUsetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287C4298361F1005801AA /* CreateUsetDataStore.swift */; };
+		3CD67DB7298C0A3E003EC3D6 /* WhosWatchingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DAF298C0A3E003EC3D6 /* WhosWatchingPresenter.swift */; };
+		3CD67DB8298C0A3E003EC3D6 /* WhosWatchingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB0298C0A3E003EC3D6 /* WhosWatchingRouter.swift */; };
+		3CD67DB9298C0A3E003EC3D6 /* WhosWatchingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB1298C0A3E003EC3D6 /* WhosWatchingDataStore.swift */; };
+		3CD67DBA298C0A3E003EC3D6 /* WhosWatchingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB2298C0A3E003EC3D6 /* WhosWatchingInteractor.swift */; };
+		3CD67DBB298C0A3E003EC3D6 /* WhosWatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB3298C0A3E003EC3D6 /* WhosWatchingView.swift */; };
+		3CD67DBC298C0A3E003EC3D6 /* WhosWatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB4298C0A3E003EC3D6 /* WhosWatchingModel.swift */; };
+		3CD67DBD298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB5298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift */; };
+		3CD67DBE298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB6298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,15 +80,26 @@
 		3C048DBB297DB11900F72819 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
 		3C488616297DBBEB00353028 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		3C488619297DFAE600353028 /* Data+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decode.swift"; sourceTree = "<group>"; };
-		3C48861E297E013200353028 /* WhosWatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingView.swift; sourceTree = "<group>"; };
-		3C488620297E03A200353028 /* WhosWatchingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingInteractor.swift; sourceTree = "<group>"; };
-		3C488622297E03F000353028 /* WhosWatchingPresentingLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingPresentingLogic.swift; sourceTree = "<group>"; };
-		3C488624297E048100353028 /* WhosWatchingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingConfigurator.swift; sourceTree = "<group>"; };
-		3C488627297E05EC00353028 /* WhosWatchingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingDataStore.swift; sourceTree = "<group>"; };
 		3C488629297E066200353028 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		3C48862B297E08E000353028 /* WhosWatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingModel.swift; sourceTree = "<group>"; };
-		3C48862D297E096E00353028 /* WhosWatchingNetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingNetworkWorker.swift; sourceTree = "<group>"; };
-		3C488630297E0A4000353028 /* UsersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProvider.swift; sourceTree = "<group>"; };
+		3C9287AA2980C043005801AA /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		3C9287B12980C3E4005801AA /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		3C9287B32980C87E005801AA /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		3C9287B629835BA1005801AA /* CreateUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserPresenter.swift; sourceTree = "<group>"; };
+		3C9287B729835BA1005801AA /* CreateUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserRouter.swift; sourceTree = "<group>"; };
+		3C9287B829835BA1005801AA /* CreateUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserInteractor.swift; sourceTree = "<group>"; };
+		3C9287B929835BA1005801AA /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
+		3C9287BA29835BA1005801AA /* CreateUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserModel.swift; sourceTree = "<group>"; };
+		3C9287BB29835BA1005801AA /* CreateUserConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserConfigurator.swift; sourceTree = "<group>"; };
+		3C9287BC29835BA1005801AA /* CreateUserNetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNetworkWorker.swift; sourceTree = "<group>"; };
+		3C9287C4298361F1005801AA /* CreateUsetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsetDataStore.swift; sourceTree = "<group>"; };
+		3CD67DAF298C0A3E003EC3D6 /* WhosWatchingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingPresenter.swift; sourceTree = "<group>"; };
+		3CD67DB0298C0A3E003EC3D6 /* WhosWatchingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingRouter.swift; sourceTree = "<group>"; };
+		3CD67DB1298C0A3E003EC3D6 /* WhosWatchingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingDataStore.swift; sourceTree = "<group>"; };
+		3CD67DB2298C0A3E003EC3D6 /* WhosWatchingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingInteractor.swift; sourceTree = "<group>"; };
+		3CD67DB3298C0A3E003EC3D6 /* WhosWatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingView.swift; sourceTree = "<group>"; };
+		3CD67DB4298C0A3E003EC3D6 /* WhosWatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingModel.swift; sourceTree = "<group>"; };
+		3CD67DB5298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingConfigurator.swift; sourceTree = "<group>"; };
+		3CD67DB6298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingNetworkWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,25 +191,10 @@
 		3C048DAD297D925C00F72819 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3C048DAE297D926200F72819 /* WhosWhatching */,
+				3CD67DAE298C0A11003EC3D6 /* WhosWatching */,
+				3C9287B52981C9A1005801AA /* CreateUser */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		3C048DAE297D926200F72819 /* WhosWhatching */ = {
-			isa = PBXGroup;
-			children = (
-				3C48862F297E0A2C00353028 /* Provider */,
-				3C488626297E05D700353028 /* Models */,
-				3C48861B297E00B400353028 /* UIComponents */,
-				3C48861E297E013200353028 /* WhosWatchingView.swift */,
-				3C488620297E03A200353028 /* WhosWatchingInteractor.swift */,
-				3C488622297E03F000353028 /* WhosWatchingPresentingLogic.swift */,
-				3C488624297E048100353028 /* WhosWatchingConfigurator.swift */,
-				3C48862B297E08E000353028 /* WhosWatchingModel.swift */,
-				3C48862D297E096E00353028 /* WhosWatchingNetworkWorker.swift */,
-			);
-			path = WhosWhatching;
 			sourceTree = "<group>";
 		};
 		3C048DAF297D928400F72819 /* Support */ = {
@@ -203,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				3C048DB2297D92BF00F72819 /* Colors.swift */,
+				3C9287AA2980C043005801AA /* Fonts.swift */,
 			);
 			path = Tokens;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 		3C48861B297E00B400353028 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				3C9287AE2980C275005801AA /* Modifiers */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -237,18 +246,50 @@
 		3C488626297E05D700353028 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3C488627297E05EC00353028 /* WhosWatchingDataStore.swift */,
 				3C488629297E066200353028 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3C48862F297E0A2C00353028 /* Provider */ = {
+		3C9287AE2980C275005801AA /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				3C488630297E0A4000353028 /* UsersProvider.swift */,
+				3C9287B12980C3E4005801AA /* PrimaryButtonStyle.swift */,
+				3C9287B32980C87E005801AA /* TextFieldModifier.swift */,
 			);
-			path = Provider;
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		3C9287B52981C9A1005801AA /* CreateUser */ = {
+			isa = PBXGroup;
+			children = (
+				3C48861B297E00B400353028 /* UIComponents */,
+				3C488626297E05D700353028 /* Models */,
+				3C9287B629835BA1005801AA /* CreateUserPresenter.swift */,
+				3C9287B729835BA1005801AA /* CreateUserRouter.swift */,
+				3C9287B829835BA1005801AA /* CreateUserInteractor.swift */,
+				3C9287B929835BA1005801AA /* CreateUserView.swift */,
+				3C9287BA29835BA1005801AA /* CreateUserModel.swift */,
+				3C9287BB29835BA1005801AA /* CreateUserConfigurator.swift */,
+				3C9287BC29835BA1005801AA /* CreateUserNetworkWorker.swift */,
+				3C9287C4298361F1005801AA /* CreateUsetDataStore.swift */,
+			);
+			path = CreateUser;
+			sourceTree = "<group>";
+		};
+		3CD67DAE298C0A11003EC3D6 /* WhosWatching */ = {
+			isa = PBXGroup;
+			children = (
+				3CD67DAF298C0A3E003EC3D6 /* WhosWatchingPresenter.swift */,
+				3CD67DB0298C0A3E003EC3D6 /* WhosWatchingRouter.swift */,
+				3CD67DB1298C0A3E003EC3D6 /* WhosWatchingDataStore.swift */,
+				3CD67DB2298C0A3E003EC3D6 /* WhosWatchingInteractor.swift */,
+				3CD67DB3298C0A3E003EC3D6 /* WhosWatchingView.swift */,
+				3CD67DB4298C0A3E003EC3D6 /* WhosWatchingModel.swift */,
+				3CD67DB5298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift */,
+				3CD67DB6298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift */,
+			);
+			path = WhosWatching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,24 +429,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9287B22980C3E4005801AA /* PrimaryButtonStyle.swift in Sources */,
+				3C9287C029835BA1005801AA /* CreateUserView.swift in Sources */,
 				3C048DB6297DAA7100F72819 /* ServiceProvider.swift in Sources */,
-				3C488623297E03F000353028 /* WhosWatchingPresentingLogic.swift in Sources */,
-				3C488625297E048100353028 /* WhosWatchingConfigurator.swift in Sources */,
+				3CD67DB9298C0A3E003EC3D6 /* WhosWatchingDataStore.swift in Sources */,
+				3CD67DBB298C0A3E003EC3D6 /* WhosWatchingView.swift in Sources */,
+				3C9287C229835BA1005801AA /* CreateUserConfigurator.swift in Sources */,
+				3C9287C129835BA1005801AA /* CreateUserModel.swift in Sources */,
+				3CD67DBC298C0A3E003EC3D6 /* WhosWatchingModel.swift in Sources */,
+				3CD67DBA298C0A3E003EC3D6 /* WhosWatchingInteractor.swift in Sources */,
 				3C048DB8297DB07F00F72819 /* RequestProvider.swift in Sources */,
+				3C9287AB2980C043005801AA /* Fonts.swift in Sources */,
 				3C048DBC297DB11900F72819 /* Host.swift in Sources */,
-				3C488631297E0A4000353028 /* UsersProvider.swift in Sources */,
-				3C488628297E05EC00353028 /* WhosWatchingDataStore.swift in Sources */,
+				3CD67DB8298C0A3E003EC3D6 /* WhosWatchingRouter.swift in Sources */,
 				3C048D86297D90C500F72819 /* ContentView.swift in Sources */,
-				3C48862E297E096E00353028 /* WhosWatchingNetworkWorker.swift in Sources */,
+				3C9287BE29835BA1005801AA /* CreateUserRouter.swift in Sources */,
+				3C9287BF29835BA1005801AA /* CreateUserInteractor.swift in Sources */,
 				3C48862A297E066200353028 /* User.swift in Sources */,
-				3C48861F297E013200353028 /* WhosWatchingView.swift in Sources */,
-				3C48862C297E08E000353028 /* WhosWatchingModel.swift in Sources */,
+				3C9287BD29835BA1005801AA /* CreateUserPresenter.swift in Sources */,
+				3C9287C329835BA1005801AA /* CreateUserNetworkWorker.swift in Sources */,
+				3CD67DBE298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift in Sources */,
+				3CD67DB7298C0A3E003EC3D6 /* WhosWatchingPresenter.swift in Sources */,
 				3C048DB3297D92BF00F72819 /* Colors.swift in Sources */,
 				3C488617297DBBEB00353028 /* APIError.swift in Sources */,
 				3C048DBA297DB0D200F72819 /* HTTPMethod.swift in Sources */,
 				3C48861A297DFAE600353028 /* Data+Decode.swift in Sources */,
-				3C488621297E03A200353028 /* WhosWatchingInteractor.swift in Sources */,
+				3C9287B42980C87E005801AA /* TextFieldModifier.swift in Sources */,
 				3C048D84297D90C500F72819 /* MovveApp.swift in Sources */,
+				3CD67DBD298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift in Sources */,
+				3C9287C5298361F1005801AA /* CreateUsetDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

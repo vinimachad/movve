@@ -2,13 +2,13 @@
 //  WhosWatchingPresenter.swift
 //  Movve
 //
-//  Created by Vinicius Galhardo Machado on 22/01/23.
+//  Created by Vinicius Galhardo Machado on 02/02/23.
 //
 
 import Foundation
 
 protocol WhosWatchingPresentingLogic {
-    func presentUsers() async
+    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response) async
 }
 
 class WhosWatchingPresenter {
@@ -17,8 +17,8 @@ class WhosWatchingPresenter {
 
 extension WhosWatchingPresenter: WhosWatchingPresentingLogic {
     
-    func presentUsers() async {
+    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response) async {
         let viewModel = WhosWatchingModel.WhosWatchingLoad.ViewModel()
-        await view?.displayUsers()
+        await view?.displaySomething(viewModel: viewModel)
     }
 }

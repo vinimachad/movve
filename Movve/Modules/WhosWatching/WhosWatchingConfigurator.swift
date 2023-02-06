@@ -10,7 +10,7 @@ import SwiftUI
 extension WhosWatchingView {
     
     func configureView() {
-        var view = self
+        let view = self
         let presenter = WhosWatchingPresenter()
         presenter.view = view
         interactor.presenter = presenter

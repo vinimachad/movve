@@ -8,7 +8,7 @@
 import SwiftUI
 
 protocol CreateUserDisplayLogic {
-    func displaySomething(viewModel: CreateUserModel.CreateUserSave.ViewModel) async
+    func displaySomething(viewModel: CreateUserModel.CreateUserSave.ViewModel)
     func navigateToWhosWatching()
     func presentGenericError()
 }
@@ -16,9 +16,8 @@ protocol CreateUserDisplayLogic {
 extension CreateUserView: CreateUserDisplayLogic {
     
     private func fetchSomething() {
-        Task {       
-            await interactor.loadSomething()
-        }
+//        interactor.loadSomething()
+        router.presentWhosWatching.toggle()
     }
     
     // MARK: - CreateUserDisplayLogic
@@ -48,19 +47,20 @@ struct CreateUserView: View {
                     .font(.title)
                     .fontWeight(.medium)
                     .multilineTextAlignment(.center)
-                
+                    
                 TextField("Digite seu nome", text: $interactor.name)
                     .setTextField()
                     .padding([.vertical, .horizontal], 60)
-                
+
                 Button(action: fetchSomething) {
                     Text("Confirmar")
                 }.buttonStyle(PrimaryButtonStyle())
             }
-            
-            .navigationDestination(isPresented: $router.presentWhosWatching, destination: {
-                WhosWatchingView()
-            })
+
+            .navigationDestination(
+                isPresented: $router.presentWhosWatching,
+                destination: { WhosWatchingView() }
+            )
         }
         .onAppear(perform: configureView)
     }

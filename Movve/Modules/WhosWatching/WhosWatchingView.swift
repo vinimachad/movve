@@ -8,15 +8,13 @@
 import SwiftUI
 
 protocol WhosWatchingDisplayLogic {
-    func displaySomething(viewModel: WhosWatchingModel.WhosWatchingLoad.ViewModel) async
+    func displaySomething(viewModel: WhosWatchingModel.WhosWatchingLoad.ViewModel)
 }
 
 extension WhosWatchingView: WhosWatchingDisplayLogic {
     
     private func fetchSomething() {
-        Task {
-            await interactor.loadSomething()
-        }
+        interactor.loadSomething()
     }
     
     func displaySomething(viewModel: WhosWatchingModel.WhosWatchingLoad.ViewModel) {
@@ -31,18 +29,29 @@ struct WhosWatchingView: View {
     @StateObject var router = WhosWatchingRouter()
     // @StateObject var dataStore = WhosWatchingDataStore()
     
+    var columns: [GridItem] = [
+        .init(.adaptive(minimum: 100))
+    ]
+    
     var body: some View {
         NavigationStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Button(action: fetchSomething) {
-                Text("Button test")
+            VStack {
+                LazyVGrid(columns: columns) {
+                    ForEach(0..<5) { _ in
+                        HStack(alignment: .center) {
+                            Color.primaryColor
+//                                .frame(width: 100, height: 100)
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
+                }
+                .padding(.horizontal, 60)
             }
-            .navigationDestination(isPresented: $router.presentSomething, destination: {
-                Text("Something")
-            })
-        }   
-            .onAppear(perform: configureView)
-            .onAppear(perform: fetchSomething)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .navigationTitle("Quem está assistindo?")
+        .navigationBarTitleDisplayMode(.inline)
+        .onAppear(perform: configureView)
     }
 }
 

@@ -25,8 +25,7 @@ extension RequestProvider {
     
     var headers: [String: String] {
         [
-            "X-RapidAPI-Key": "4259959c1bmsh4626a43df446171p15b391jsnf14e41841442",
-            "X-RapidAPI-Host": "imdb-top-100-movies.p.rapidapi.com"
+            "Authorization": ENV.value(for: .apiSecretKey),
         ]
     }
     

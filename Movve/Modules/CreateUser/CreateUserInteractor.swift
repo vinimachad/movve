@@ -17,18 +17,15 @@ class CreateUserInteractor: ObservableObject {
     
     // MARK: - Private properties
     
-    private var worker: CreateUserNetworkWorkerLogic
+    private var worker: CreateUserRealmWorkerLogic
     
     // MARK: - Realms
-    
-    @Environment(\.dismiss) private var dismiss
-    @Environment(\.realm) private var realm
     
     @ObservedRealmObject private var user: User
     
     // MARK: - Init
     
-    init(worker: CreateUserNetworkWorkerLogic = CreateUserNetworkWorker(), user: User = User()) {
+    init(worker: CreateUserRealmWorkerLogic = CreateUserRealmWorker(), user: User = User()) {
         self.worker = worker
         self.user = user
     }
@@ -36,18 +33,14 @@ class CreateUserInteractor: ObservableObject {
 
 extension CreateUserInteractor {
     
-    func loadSomething() async {
+    func loadSomething() {
         user.name = name
         user.isKid = false
         user.avatar = "teste"
-        
         do {
-            try realm.write {
-                realm.add(user)
-                presenter?.navigateToWhosWatching()
-            }
-            dismiss()
-        } catch let error {
+            try worker.setUser(user: user)
+            presenter?.navigateToWhosWatching()
+        } catch {
             presenter?.presentGenericError()
         }
     }

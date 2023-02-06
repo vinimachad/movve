@@ -1,0 +1,12 @@
+//
+//  Development.xcconfig
+//  Movve
+//
+//  Created by Vinicius Galhardo Machado on 03/02/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = https://imdb-top-100-movies.p.rapidapi.com
+

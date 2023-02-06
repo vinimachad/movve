@@ -30,7 +30,7 @@ final class ServiceProvider {
     }()
     
     // MARK: - Validations
-    
+
     final private func validate(data: Data, response: URLResponse) throws {
         guard let code = (response as? HTTPURLResponse)?.statusCode else {
             throw APIError.connectionError(data)

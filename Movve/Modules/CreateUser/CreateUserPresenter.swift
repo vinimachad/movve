@@ -8,7 +8,7 @@
 import Foundation
 
 protocol CreateUserPresentingLogic {
-    func presentSomething(res: CreateUserModel.CreateUserSave.Response) async
+    func presentSomething(res: CreateUserModel.CreateUserSave.Response)
     func presentGenericError()
     func navigateToWhosWatching()
 }
@@ -20,9 +20,9 @@ class CreateUserPresenter {
 
 extension CreateUserPresenter: CreateUserPresentingLogic {
     
-    func presentSomething(res: CreateUserModel.CreateUserSave.Response) async {
+    func presentSomething(res: CreateUserModel.CreateUserSave.Response) {
         let viewModel = CreateUserModel.CreateUserSave.ViewModel()
-        await view?.displaySomething(viewModel: viewModel)
+        view?.displaySomething(viewModel: viewModel)
     }
     
     func navigateToWhosWatching() {

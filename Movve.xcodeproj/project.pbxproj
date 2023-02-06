@@ -22,8 +22,8 @@
 		3C488617297DBBEB00353028 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488616297DBBEB00353028 /* APIError.swift */; };
 		3C48861A297DFAE600353028 /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488619297DFAE600353028 /* Data+Decode.swift */; };
 		3C48862A297E066200353028 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C488629297E066200353028 /* User.swift */; };
-		3C9287A72980A6E7005801AA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3C9287A62980A6E7005801AA /* Realm */; };
-		3C9287A92980A6E7005801AA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C9287A82980A6E7005801AA /* RealmSwift */; };
+		3C6A44F5298C60C400F9364E /* CreateUserRealmWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A44F4298C60C400F9364E /* CreateUserRealmWorker.swift */; };
+		3C6A44FB298D6A5300F9364E /* ENV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A44FA298D6A5300F9364E /* ENV.swift */; };
 		3C9287AB2980C043005801AA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287AA2980C043005801AA /* Fonts.swift */; };
 		3C9287B22980C3E4005801AA /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B12980C3E4005801AA /* PrimaryButtonStyle.swift */; };
 		3C9287B42980C87E005801AA /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9287B32980C87E005801AA /* TextFieldModifier.swift */; };
@@ -43,6 +43,9 @@
 		3CD67DBC298C0A3E003EC3D6 /* WhosWatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB4298C0A3E003EC3D6 /* WhosWatchingModel.swift */; };
 		3CD67DBD298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB5298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift */; };
 		3CD67DBE298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD67DB6298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift */; };
+		42E2BE1E09E18A540C4CDFE9 /* Pods_MovveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157291DDBBF71F756F810F3F /* Pods_MovveTests.framework */; };
+		C9464F460DEB233CED3C3F70 /* Pods_Movve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A2E42AB2BC0EA854FB41 /* Pods_Movve.framework */; };
+		F82830D069A3F8557B8AAE5E /* Pods_Movve_MovveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B181F04D897775C0C9A83E /* Pods_Movve_MovveUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B181F04D897775C0C9A83E /* Pods_Movve_MovveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movve_MovveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		157291DDBBF71F756F810F3F /* Pods_MovveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CB30ACF22248F184C209DC /* Pods-MovveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovveTests.release.xcconfig"; path = "Target Support Files/Pods-MovveTests/Pods-MovveTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C048D80297D90C500F72819 /* Movve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C048D83297D90C500F72819 /* MovveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovveApp.swift; sourceTree = "<group>"; };
 		3C048D85297D90C500F72819 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 		3C488616297DBBEB00353028 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		3C488619297DFAE600353028 /* Data+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decode.swift"; sourceTree = "<group>"; };
 		3C488629297E066200353028 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3C6A44F4298C60C400F9364E /* CreateUserRealmWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserRealmWorker.swift; sourceTree = "<group>"; };
+		3C6A44F6298D671200F9364E /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		3C6A44F8298D6A2700F9364E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3C6A44FA298D6A5300F9364E /* ENV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENV.swift; sourceTree = "<group>"; };
 		3C9287AA2980C043005801AA /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		3C9287B12980C3E4005801AA /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		3C9287B32980C87E005801AA /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
@@ -100,6 +110,12 @@
 		3CD67DB4298C0A3E003EC3D6 /* WhosWatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingModel.swift; sourceTree = "<group>"; };
 		3CD67DB5298C0A3E003EC3D6 /* WhosWatchingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingConfigurator.swift; sourceTree = "<group>"; };
 		3CD67DB6298C0A3E003EC3D6 /* WhosWatchingNetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosWatchingNetworkWorker.swift; sourceTree = "<group>"; };
+		3F35EC7177912023010F26C6 /* Pods-Movve.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movve.development.xcconfig"; path = "Target Support Files/Pods-Movve/Pods-Movve.development.xcconfig"; sourceTree = "<group>"; };
+		45A9C2C9506CF51E03D33075 /* Pods-MovveTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovveTests.development.xcconfig"; path = "Target Support Files/Pods-MovveTests/Pods-MovveTests.development.xcconfig"; sourceTree = "<group>"; };
+		7CE4A2E42AB2BC0EA854FB41 /* Pods_Movve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DFF1DF1F70CA447FFF6329 /* Pods-Movve-MovveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movve-MovveUITests.release.xcconfig"; path = "Target Support Files/Pods-Movve-MovveUITests/Pods-Movve-MovveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC8C4B474DBB3F09BD28F2C6 /* Pods-Movve-MovveUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movve-MovveUITests.development.xcconfig"; path = "Target Support Files/Pods-Movve-MovveUITests/Pods-Movve-MovveUITests.development.xcconfig"; sourceTree = "<group>"; };
+		EF74B2633AFC61A8543FAA75 /* Pods-Movve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movve.release.xcconfig"; path = "Target Support Files/Pods-Movve/Pods-Movve.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9287A92980A6E7005801AA /* RealmSwift in Frameworks */,
-				3C9287A72980A6E7005801AA /* Realm in Frameworks */,
+				C9464F460DEB233CED3C3F70 /* Pods_Movve.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E2BE1E09E18A540C4CDFE9 /* Pods_MovveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82830D069A3F8557B8AAE5E /* Pods_Movve_MovveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +153,8 @@
 				3C048D93297D90C600F72819 /* MovveTests */,
 				3C048D9D297D90C600F72819 /* MovveUITests */,
 				3C048D81297D90C500F72819 /* Products */,
+				6EC3573C4BE29CA5E809AE04 /* Pods */,
+				3D3E11641CB276B7F91BF396 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +171,8 @@
 		3C048D82297D90C500F72819 /* Movve */ = {
 			isa = PBXGroup;
 			children = (
+				3C6A44F8298D6A2700F9364E /* Info.plist */,
+				3C6A44F7298D691F00F9364E /* SupportingFiles */,
 				3C048DB4297DA9E300F72819 /* API */,
 				3C048D83297D90C500F72819 /* MovveApp.swift */,
 				3C048D85297D90C500F72819 /* ContentView.swift */,
@@ -251,6 +272,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3C6A44F7298D691F00F9364E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3C6A44F9298D6A4500F9364E /* Enviroments */,
+				3C6A44FA298D6A5300F9364E /* ENV.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3C6A44F9298D6A4500F9364E /* Enviroments */ = {
+			isa = PBXGroup;
+			children = (
+				3C6A44F6298D671200F9364E /* Development.xcconfig */,
+			);
+			path = Enviroments;
+			sourceTree = "<group>";
+		};
 		3C9287AE2980C275005801AA /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +311,7 @@
 				3C9287BB29835BA1005801AA /* CreateUserConfigurator.swift */,
 				3C9287BC29835BA1005801AA /* CreateUserNetworkWorker.swift */,
 				3C9287C4298361F1005801AA /* CreateUsetDataStore.swift */,
+				3C6A44F4298C60C400F9364E /* CreateUserRealmWorker.swift */,
 			);
 			path = CreateUser;
 			sourceTree = "<group>";
@@ -292,6 +331,29 @@
 			path = WhosWatching;
 			sourceTree = "<group>";
 		};
+		3D3E11641CB276B7F91BF396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A2E42AB2BC0EA854FB41 /* Pods_Movve.framework */,
+				09B181F04D897775C0C9A83E /* Pods_Movve_MovveUITests.framework */,
+				157291DDBBF71F756F810F3F /* Pods_MovveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EC3573C4BE29CA5E809AE04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF74B2633AFC61A8543FAA75 /* Pods-Movve.release.xcconfig */,
+				A0DFF1DF1F70CA447FFF6329 /* Pods-Movve-MovveUITests.release.xcconfig */,
+				19CB30ACF22248F184C209DC /* Pods-MovveTests.release.xcconfig */,
+				3F35EC7177912023010F26C6 /* Pods-Movve.development.xcconfig */,
+				CC8C4B474DBB3F09BD28F2C6 /* Pods-Movve-MovveUITests.development.xcconfig */,
+				45A9C2C9506CF51E03D33075 /* Pods-MovveTests.development.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,19 +361,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C048DA4297D90C600F72819 /* Build configuration list for PBXNativeTarget "Movve" */;
 			buildPhases = (
+				2FBD1506DB03EB01AB17E709 /* [CP] Check Pods Manifest.lock */,
 				3C048D7C297D90C500F72819 /* Sources */,
 				3C048D7D297D90C500F72819 /* Frameworks */,
 				3C048D7E297D90C500F72819 /* Resources */,
+				A8DC6AC8031DB3B7FC8D09E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Movve;
-			packageProductDependencies = (
-				3C9287A62980A6E7005801AA /* Realm */,
-				3C9287A82980A6E7005801AA /* RealmSwift */,
-			);
 			productName = Movve;
 			productReference = 3C048D80297D90C500F72819 /* Movve.app */;
 			productType = "com.apple.product-type.application";
@@ -320,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C048DA7297D90C600F72819 /* Build configuration list for PBXNativeTarget "MovveTests" */;
 			buildPhases = (
+				2C2C1DDA642105C7BD36958C /* [CP] Check Pods Manifest.lock */,
 				3C048D8C297D90C600F72819 /* Sources */,
 				3C048D8D297D90C600F72819 /* Frameworks */,
 				3C048D8E297D90C600F72819 /* Resources */,
@@ -338,9 +399,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C048DAA297D90C600F72819 /* Build configuration list for PBXNativeTarget "MovveUITests" */;
 			buildPhases = (
+				94177B25DBAA362051F995FB /* [CP] Check Pods Manifest.lock */,
 				3C048D96297D90C600F72819 /* Sources */,
 				3C048D97297D90C600F72819 /* Frameworks */,
 				3C048D98297D90C600F72819 /* Resources */,
+				44629180AE495C8B417D70E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,9 +447,6 @@
 				Base,
 			);
 			mainGroup = 3C048D77297D90C500F72819;
-			packageReferences = (
-				3C9287A52980A6E7005801AA /* XCRemoteSwiftPackageReference "realm-swift" */,
-			);
 			productRefGroup = 3C048D81297D90C500F72819 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,6 +484,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C2C1DDA642105C7BD36958C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FBD1506DB03EB01AB17E709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44629180AE495C8B417D70E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movve-MovveUITests/Pods-Movve-MovveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movve-MovveUITests/Pods-Movve-MovveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movve-MovveUITests/Pods-Movve-MovveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94177B25DBAA362051F995FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movve-MovveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DC6AC8031DB3B7FC8D09E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movve/Pods-Movve-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movve/Pods-Movve-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movve/Pods-Movve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C048D7C297D90C500F72819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -432,7 +595,9 @@
 				3C9287B22980C3E4005801AA /* PrimaryButtonStyle.swift in Sources */,
 				3C9287C029835BA1005801AA /* CreateUserView.swift in Sources */,
 				3C048DB6297DAA7100F72819 /* ServiceProvider.swift in Sources */,
+				3C6A44FB298D6A5300F9364E /* ENV.swift in Sources */,
 				3CD67DB9298C0A3E003EC3D6 /* WhosWatchingDataStore.swift in Sources */,
+				3C6A44F5298C60C400F9364E /* CreateUserRealmWorker.swift in Sources */,
 				3CD67DBB298C0A3E003EC3D6 /* WhosWatchingView.swift in Sources */,
 				3C9287C229835BA1005801AA /* CreateUserConfigurator.swift in Sources */,
 				3C9287C129835BA1005801AA /* CreateUserModel.swift in Sources */,
@@ -494,10 +659,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C048DA2297D90C600F72819 /* Debug */ = {
+		3C048DA2297D90C600F72819 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6A44F6298D671200F9364E /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_BASE_URL = "https://api.themoviedb.org/3";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -552,7 +719,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
 		};
 		3C048DA3297D90C600F72819 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -608,8 +775,9 @@
 			};
 			name = Release;
 		};
-		3C048DA5297D90C600F72819 /* Debug */ = {
+		3C048DA5297D90C600F72819 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F35EC7177912023010F26C6 /* Pods-Movve.development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -619,6 +787,7 @@
 				DEVELOPMENT_TEAM = 77PUJX2KMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movve/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -635,10 +804,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Development;
 		};
 		3C048DA6297D90C600F72819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF74B2633AFC61A8543FAA75 /* Pods-Movve.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -648,6 +818,7 @@
 				DEVELOPMENT_TEAM = 77PUJX2KMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movve/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -666,8 +837,9 @@
 			};
 			name = Release;
 		};
-		3C048DA8297D90C600F72819 /* Debug */ = {
+		3C048DA8297D90C600F72819 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A9C2C9506CF51E03D33075 /* Pods-MovveTests.development.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -684,10 +856,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movve.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movve";
 			};
-			name = Debug;
+			name = Development;
 		};
 		3C048DA9297D90C600F72819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CB30ACF22248F184C209DC /* Pods-MovveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -706,8 +879,9 @@
 			};
 			name = Release;
 		};
-		3C048DAB297D90C600F72819 /* Debug */ = {
+		3C048DAB297D90C600F72819 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8C4B474DBB3F09BD28F2C6 /* Pods-Movve-MovveUITests.development.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -722,10 +896,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Movve;
 			};
-			name = Debug;
+			name = Development;
 		};
 		3C048DAC297D90C600F72819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DFF1DF1F70CA447FFF6329 /* Pods-Movve-MovveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -748,7 +923,7 @@
 		3C048D7B297D90C500F72819 /* Build configuration list for PBXProject "Movve" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C048DA2297D90C600F72819 /* Debug */,
+				3C048DA2297D90C600F72819 /* Development */,
 				3C048DA3297D90C600F72819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -757,7 +932,7 @@
 		3C048DA4297D90C600F72819 /* Build configuration list for PBXNativeTarget "Movve" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C048DA5297D90C600F72819 /* Debug */,
+				3C048DA5297D90C600F72819 /* Development */,
 				3C048DA6297D90C600F72819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -766,7 +941,7 @@
 		3C048DA7297D90C600F72819 /* Build configuration list for PBXNativeTarget "MovveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C048DA8297D90C600F72819 /* Debug */,
+				3C048DA8297D90C600F72819 /* Development */,
 				3C048DA9297D90C600F72819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -775,37 +950,13 @@
 		3C048DAA297D90C600F72819 /* Build configuration list for PBXNativeTarget "MovveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C048DAB297D90C600F72819 /* Debug */,
+				3C048DAB297D90C600F72819 /* Development */,
 				3C048DAC297D90C600F72819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3C9287A52980A6E7005801AA /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.25.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3C9287A62980A6E7005801AA /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3C9287A52980A6E7005801AA /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		3C9287A82980A6E7005801AA /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3C9287A52980A6E7005801AA /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C048D78297D90C500F72819 /* Project object */;
 }

@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct ContentView: View {
+    
+    @ObservedResults(User.self) var users
+    
     var body: some View {
         NavigationView {
-            CreateUserView()
+            if users.isEmpty {
+                CreateUserView()
+            } else {
+                WhosWatchingView()
+            }
         }
     }
 }

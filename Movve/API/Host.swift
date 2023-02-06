@@ -10,7 +10,8 @@ import Foundation
 enum Host {
     
     static func baseURL(path: String) -> URL {
-        guard let url = URL(string: "https://imdb-top-100-movies.p.rapidapi.com/\(path)") else { fatalError("URL não suportada") }
+        let baseUrlString = ENV.value(for: .apiBaseUrl)
+        guard let url = URL(string: "\(baseUrlString)\(path)") else { fatalError("URL não suportada") }
         return url
     }
 }

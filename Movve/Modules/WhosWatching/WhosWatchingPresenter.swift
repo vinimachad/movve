@@ -8,7 +8,7 @@
 import Foundation
 
 protocol WhosWatchingPresentingLogic {
-    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response) async
+    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response)
 }
 
 class WhosWatchingPresenter {
@@ -17,8 +17,8 @@ class WhosWatchingPresenter {
 
 extension WhosWatchingPresenter: WhosWatchingPresentingLogic {
     
-    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response) async {
+    func presentSomething(res: WhosWatchingModel.WhosWatchingLoad.Response) {
         let viewModel = WhosWatchingModel.WhosWatchingLoad.ViewModel()
-        await view?.displaySomething(viewModel: viewModel)
+        view?.displaySomething(viewModel: viewModel)
     }
 }

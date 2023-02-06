@@ -18,7 +18,7 @@ class WhosWatchingInteractor: ObservableObject {
     
     private var worker: WhosWatchingNetworkWorkerLogic
     
-    @ObservedResults(User.self, where: {$0.isKid == false})
+    @ObservedResults(User.self)
     private var users
     // MARK: - Init
     
@@ -29,15 +29,8 @@ class WhosWatchingInteractor: ObservableObject {
 
 extension WhosWatchingInteractor {
     
-    func loadSomething() async {
-        print(users[0])
-//        do {
-//            let req = WhosWatchingModel.WhosWatchingLoad.Request()
-//             let response = try await worker.getSomething(req: req)
-            let response = WhosWatchingModel.WhosWatchingLoad.Response()
-            await presenter?.presentSomething(res: response)
-//        } catch let error {
-//            print("error->", error)
-//        }     
+    func loadSomething() {
+        let response = WhosWatchingModel.WhosWatchingLoad.Response()
+        presenter?.presentSomething(res: response)
     }
 }
